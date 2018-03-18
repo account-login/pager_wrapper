@@ -1,0 +1,5 @@
+# clion
+/cmake-build-*
+.idea
+
+/build
