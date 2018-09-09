@@ -313,7 +313,7 @@ int main(int argc, char **argv)
     while (1) {
         uint64_t now = get_time_msec();
         if (now >= deadline) {
-            return do_nopager(&ctx);
+            return do_pager(&ctx);
         }
 
         size_t nread = 0;
